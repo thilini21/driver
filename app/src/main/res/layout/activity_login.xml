@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_login"
+        android:id="@+id/rellay1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/button_marginLeft"
+            android:layout_marginRight="@dimen/button_marginRight"
+            android:layout_marginBottom="@dimen/button_marginBottom"
+            android:background="@drawable/button_cornered"
+            android:backgroundTint="@color/text_color"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normalText_sp_14"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
